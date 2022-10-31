@@ -1,0 +1,266 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+.img_logo{
+    margin-left: 2rem;
+    width: 6rem;
+    height: 6.5rem;
+}
+
+.navbar-brand{
+    margin-right: 5%;
+}
+
+.buscador{
+    width: 60%;
+    height: 3rem;
+}
+
+.card-img-top{
+    width: 150px;
+    height: 170px;
+    object-fit: contain;
+}
+
+.card{
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+#index_contenedor_productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-link{
+    border: 0;
+    background-color: transparent;
+}
+
+.regist_popup{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)scale(0);
+    opacity: 0;
+    width: 35%;
+    padding: 3%;
+    border: solid black;
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    background-color: whitesmoke;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 20ms ease-in-out 0ms;
+}
+
+.login_popup{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)scale(0);
+    opacity: 0;
+    width: 35%;
+    padding: 3%;
+    border: solid black;
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    background-color: whitesmoke;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 20ms ease-in-out 0ms;
+}
+
+.active_popup{
+    top: 50%;
+    opacity: 1;
+    z-index: 3;
+    transform: translate(-50%,-50%)scale(1);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 20ms ease-in-out 0ms;
+}
+
+.close_button_2{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: grey;
+    cursor: pointer;
+}
+
+.close_button{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: grey;
+    cursor: pointer;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login_label{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.login_input{
+    border-radius: 5px;
+    border-width: 1px;
+    height: 40px;
+    padding: 5px;
+}
+
+.login_ingresar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.btn-success{
+    width: 100%;
+}
+
+.login_registro{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#login_registrarse{
+    margin-left: 8px;
+    border: 0;
+    background-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login_olvide_contraseña{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.titulo_login{
+    text-align: center;
+}
+
+.regist_registrar{
+    margin-top: 1rem;
+}
+
+.bi-person-circle{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.navbar-nav{
+    position: relative;
+    right: -40%;
+}
+
+#todo{
+    z-index: 999;
+    background-color: rgb(233, 233, 233);
+}
+
+#mostrar_login{
+    position: relative;
+    right: 2rem;
+}
+
+.bi-cart-fill{
+    font-size: 30px;
+}
+
+#mostrar_login{
+    z-index: 2;
+}
+
+#mostrar_usuario{
+    z-index: 3;
+    padding-right: 2rem;
+}
+
+.opc_usuario{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    opacity: 0;
+}
+
+.active_usuario{
+    opacity: 1;
+    z-index: 3;
+    background-color: rgb(233, 233, 233);
+}
+
+.categorias{
+    position: relative;
+    right: -10%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 4rem;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn_categorias{
+    border: 0ch;
+    background-color: transparent;
+    font-size: 1.2rem;
+    color: rgb(34, 136, 34);
+}
+
+/*
+@media only screen and(max-width: 576px){
+
+    .bi-cart-fill{
+        font-size: 10px;
+    }
+
+    .bi-cart-fill{
+        font-size: 10px;
+    }
+}
+*/
