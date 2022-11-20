@@ -1,0 +1,18 @@
+[
+    {"id":1, "nombre":"Ibupirac 400", "precio":230, "img":"img/ibu400.jpg", "oferta": 0},
+    {"id":2, "nombre":"Ibupirac 600", "precio":350, "img":"img/ibu600.jpg", "oferta": 0},
+    {"id":3, "nombre":"Tafirol 500", "precio":750, "img":"img/tafirol500.jpg", "oferta": 4},
+    {"id":4, "nombre":"Tafirol Forte", "precio":870, "img":"img/tafirolfte.jpg", "oferta": 2},
+    {"id":5, "nombre":"Tafirol Plus", "precio":1050, "img":"img/tafirolplus.jpg", "oferta": 0},
+    {"id":6, "nombre":"Crema Platsul-A", "precio":900, "img":"img/platsula.jpg", "oferta": 0},
+    {"id":7, "nombre":"Crema Adermicina A", "precio":1200, "img":"img/adermicinaa.jpg", "oferta": 0},
+    {"id":8, "nombre":"Crema Adermicina", "precio":1600, "img":"img/adermicina.jpg", "oferta": 3},
+    {"id":9, "nombre":"Crema Nivea Creme", "precio":500, "img":"img/niveacreme.jpg", "oferta": 0},
+    {"id":10, "nombre":"Crema Empecid", "precio":750, "img":"img/empecid.jpg", "oferta": 4},
+    {"id":11, "nombre":"Crema Voltaren Gel", "precio":1300, "img":"img/voltaren.jpg", "oferta": 0},
+    {"id":12, "nombre":"A.B. Blue Seduction", "precio":4500, "img":"img/blueseduction.jpg", "oferta": 0},
+    {"id":13, "nombre":"A.B The Icon", "precio":5300, "img":"img/theicon.jpg", "oferta": 2},
+    {"id":14, "nombre":"A.B. Her Secret Desire", "precio":4400, "img":"img/secretdesire.jpg", "oferta": 0},
+    {"id":15, "nombre":"A.B. Her Secret Bloom", "precio":3700, "img":"img/secretbloom.jpg", "oferta": 1},
+    {"id":16, "nombre":"A.B. The Icon Blue", "precio":4900, "img":"img/theiconblue.jpg", "oferta": 0}
+]
